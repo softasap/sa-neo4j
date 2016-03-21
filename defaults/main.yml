@@ -1,0 +1,7 @@
+---
+# defaults file for sa-neo4j
+  option_install_java: false
+  option_allow_remote_connections: false
+  java_version: 8
+  neo4j_edition: neo4j # neo4j for community, otherwise neo4j-enterprise
+
