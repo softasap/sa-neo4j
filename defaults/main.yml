@@ -5,3 +5,8 @@
   java_version: 8
   neo4j_edition: neo4j # neo4j for community, otherwise neo4j-enterprise
 
+
+  neo4j_properties:
+    - {regexp: "^allow_store_upgrade.*", line: "allow_store_upgrade=true"}
+
+

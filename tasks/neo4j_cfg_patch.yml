@@ -1,0 +1,6 @@
+---
+  - name: NEO4J | Patch settings 
+    lineinfile: dest=/etc/neo4j/neo4j.properties regexp="{{item.regexp}}" line="{{item.line}}"
+    with_items: neo4j_properties
+    notify: restart neo4j
+    become: yes

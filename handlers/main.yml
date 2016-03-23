@@ -1,2 +1,6 @@
 ---
 # handlers file for sa-neo4j
+
+  - name: restart neo4j
+    service: name=neo4j-service state=restarted
+    become: yes

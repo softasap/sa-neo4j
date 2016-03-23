@@ -4,3 +4,5 @@
     when: option_install_java
 
   - include: neo4j.yml
+
+  - include: neo4j_cfg_patch.yml
