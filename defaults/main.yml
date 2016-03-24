@@ -11,4 +11,4 @@
 
 # http://neo4j.com/docs/stable/rest-api-security.html
   neo4j_server_properties:
-    - {regexp: "^dbms\.security\.auth_enabled", line: "dbms.security.auth_enabled=false"} 
+    - {regexp: "^dbms\\.security\\.auth_enabled*", line: "dbms.security.auth_enabled=false"} 
