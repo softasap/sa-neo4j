@@ -1,0 +1,19 @@
+---
+- hosts: www
+
+  vars:
+    - root_dir: ..
+
+
+  pre_tasks:
+    - debug: msg="Pre tasks section"
+
+  roles:
+     - {
+         role: "sa-neo4j",
+         neo4j_webserver_bindip: "0.0.0.0"
+       }
+
+
+  tasks:
+    - debug: msg="Tasks section"
