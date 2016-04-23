@@ -1,0 +1,4 @@
+[submodule "roles/sa-neo4j"]
+        path = roles/sa-neo4j
+        url = https://github.com/softasap/sa-neo4j.git
+
